@@ -2,7 +2,7 @@ package org.example;
 import java.util.Scanner;
 
 public class Jugador{
-    public static void pedirNumero(String ficha, String [] tabla){
+    static void pedirNumero(String ficha, String [] tabla){
         // Pedir al jugador X que introduzca un número
         Scanner leerPosicion = new Scanner(System.in);
         int numero;
